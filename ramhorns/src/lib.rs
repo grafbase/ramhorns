@@ -90,6 +90,8 @@ pub use error::Error;
 pub use template::{Section, Template};
 
 #[cfg(feature = "indexes")]
+pub use content::render_indexed_content_section;
+#[cfg(feature = "indexes")]
 pub use template::{Index, Indexed};
 
 #[cfg(feature = "export_derive")]
